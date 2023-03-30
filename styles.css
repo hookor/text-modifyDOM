@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   background-color: #568DE5;
+  font-size: 20px;
 }
 .body { 
   position: relative;
@@ -22,7 +23,6 @@
   cursor: pointer;
 }
 .icon {
-  font-size: ;
 }
 .increase {
   cursor: pointer;

@@ -5,10 +5,21 @@ let grow = document.querySelector('.increase');
 
 // const boxStyle = window.getComputedStyle(box);
 // console.log(boxStyle);
-let cbStyle = window.getComputedStyle(cb).getPropertyValue('font-size');
-console.log(cbStyle);
 
-shrink.onclick = (cbStyle) => {};
+// let cbStyle = window.getComputedStyle(cb).getPropertyValue('font-size');
+
+for(let i=0; shrimonclick; i++){
+  cb.style.fontSize = `${i}px`
+}
+
+
+
+// let change = document.querySelector('.icon').style.fontSize
+// console.log(change);
+
+// cb.addEventListener('click', (n) => {
+//   cb.style.fontSize = `${n+1}`
+// })
 
 // shrink.addEventListener('click', function(n){
 //   cb.style.fontSize = "60px"
