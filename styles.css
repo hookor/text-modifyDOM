@@ -1,0 +1,29 @@
+
+* {
+  box-sizing: border-box;
+  background-color: #568DE5;
+}
+.body { 
+  position: relative;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left: 0;
+  position: absolute;
+  color: #E8EAED;
+}
+.decrease {
+  cursor: pointer;
+}
+.icon {
+  font-size: ;
+}
+.increase {
+  cursor: pointer;
+}
