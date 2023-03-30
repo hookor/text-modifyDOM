@@ -1,39 +1,24 @@
-let box = document.querySelector('.container');
-let shrink = document.querySelector('.decrease');
-let cb = document.querySelector('.icon');
-let grow = document.querySelector('.increase');
+const cherry = document.querySelector('.icon');
 
-// const boxStyle = window.getComputedStyle(box);
-// console.log(boxStyle);
+class LikeCounter {
+  constructor() {
+    this.clickedCount = 0;
 
-// let cbStyle = window.getComputedStyle(cb).getPropertyValue('font-size');
+    const plus = document.querySelector('.increase');
+    const minus = document.querySelector('.decrease');
+    const cherry = document.querySelector('.icon');
 
-for(let i=0; shrimonclick; i++){
-  cb.style.fontSize = `${i}px`
+    plus.addEventListener('click', () => {
+      this.clickedCount += 1;
+      console.log(this.clickedCount);
+      cherry.style.setProperty('--fontSize', `${this.clickedCount}`);
+      
+    });
+    minus.addEventListener('click', () => {
+      this.clickedCount -= 1;
+      console.log(this.clickedCount);
+      cherry.style.setProperty('--fontSize', `${this.clickedCount}`);
+    });
+  }
 }
-
-
-
-// let change = document.querySelector('.icon').style.fontSize
-// console.log(change);
-
-// cb.addEventListener('click', (n) => {
-//   cb.style.fontSize = `${n+1}`
-// })
-
-// shrink.addEventListener('click', function(n){
-//   cb.style.fontSize = "60px"
-// })
-
-// shrink.addEventListener('click', function(n){
-//   cb.style.fontSize = "1px"
-// })
-
-// shrink.onclick = () => {
-//   cb.style.fontSize. += cb.style.fontSize
-// }
-
-// grow.onclick = () => {
-//   cb.style.fontSize += cb.style.fontSize
-// }
-// console.log(cb.style.fontSize);
+new LikeCounter();

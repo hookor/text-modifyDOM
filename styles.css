@@ -1,8 +1,9 @@
-
+:root{
+  --font-size: 10px;
+}
 * {
   box-sizing: border-box;
   background-color: #568DE5;
-  font-size: 20px;
 }
 .body { 
   position: relative;
@@ -23,6 +24,8 @@
   cursor: pointer;
 }
 .icon {
+  --fontSize: 1;
+  font-size: calc(var(--fontSize) * 10px);
 }
 .increase {
   cursor: pointer;
