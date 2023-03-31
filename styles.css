@@ -26,6 +26,8 @@
 .icon {
   --fontSize: 1;
   font-size: calc(var(--fontSize) * 10px);
+  transition: .2s;
+  animation-timing-function: ease-in;
 }
 .increase {
   cursor: pointer;
